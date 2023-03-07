@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myShop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/shop.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <ul class="left-nav">
+                        <li> <a href="#" class="strong"><span class="flags kr"></span>KR</a>
+                            <ul class="trans-nav">
+                                <li><a href="#"><span class="flags kr"></span>한국어</a></li>
+                                <li><a href="#"><span class="flags en"></span>영어</a></li>
+                                <li><a href="#"><span class="flags jp"></span>일본어</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="und">고객센터</a></li>
+                    </ul>
+                    <ul class="right-nav">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#" class="register">회원가입</a></li>
+                        <li><a href="#">배송조회</a></li>
+                        <li><a href="#">커뮤니티</a>
+                            <ul class="comunity-nav">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">상품후기</a></li>
+                                <li><a href="#">자주묻는질문</a></li>
+                                <li><a href="#">VIP전용게시판</a></li>
+                                <li><a href="#">배송문의</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">마이쇼핑</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="container">
+            <div class="header-section row">
+                <a href="#" class="logo"></a>
+                <!-- search -->
+                <form class="search-form">
+                    <label class="search">
+                        <input type="search" class="search">
+                        <button class="btn-search">
+                            <span class="material-icons">search</span>
+                        </button>
+                    </label>
+                </form>
+            </div>
+        </section>
+        
+        <nav>
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-lg-10">
+                        <ul class="nav">
+                            <li class="nav-item"><a href="#">봄신상</a></li>
+                            <li class="nav-item"><a href="#">베스트</a></li>
+                            <li class="nav-item"><a href="#">핫딜</a></li>
+                            <li class="nav-item"><a href="#">인기상품재입고</a></li>
+                            <li class="nav-item"><a href="#">극찬후기</a></li>
+                            <li class="nav-item"><a href="#">77사이즈</a></li>
+                            <li class="nav-item"><a href="#">원피스</a></li>
+                            <li class="nav-item"><a href="#">아우터</a></li>
+                            <li class="nav-item"><a href="#">상의</a></li>
+                            <li class="nav-item"><a href="#">치마</a></li>
+                            <li class="nav-item"><a href="#">바지</a></li>
+                            <li class="nav-item"><a href="#">슈즈</a></li>
+                            <li class="nav-item"><a href="#">악세사리</a></li>
+                            <li class="nav-item"><a href="#">아울렛</a></li>
+                            <li class="nav-item"><a href="#">개인결제</a></li>
+                            <li class="nav-item"><a href="#">상품후기</a></li>
+                            <li class="nav-item"><a href="#">당일배송</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 cart-menu">
+                        <div class="cart">
+                            <span class="material-icons-two-tone">shopping_cart</span>
+                        </div>
+                        <div class="menu">
+                            <span class="material-icons">menu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="category">
+            <div class="container">
+                <div class="left-box">
+                    <div class="barr">
+                        <p class="mb-3 strong">카테고리</p>
+                        <ul>
+                            <li><a href="#">봄신상</a></li>
+                            <li><a href="#">베스트</a></li>
+                            <li><a href="#">핫딜</a></li>
+                        </ul>
+                    </div>
+                    <div class="barr">
+                        <p class="mb-3 color-white">하이 </p>
+                        <ul>
+                            <li><a href="#">인기상품재입고</a></li>
+                            <li><a href="#">극찬후기</a></li>
+                            <li><a href="#">77사이즈</a></li>
+                            <li><a href="#">원피스</a></li>
+                            <li><a href="#">아우터</a></li>
+                            <li><a href="#">상의</a></li>
+                            <li><a href="#">치마</a></li>
+                            <li><a href="#">바지</a></li>
+                            <li><a href="#">슈즈</a></li>
+                            <li><a href="#">악세사리</a></li>
+                            <li><a href="#">아울렛</a></li>
+                            <li><a href="#">개인결제</a></li>
+                            <li><a href="#">당일배송</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="barr">
+                        <p class="strong">커뮤니티</p>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">상품후기</a></li>
+                            <li><a href="#">자주묻는질문</a></li>
+                            <li><a href="#">VIP전용게시판</a></li>
+                            <li><a href="#">배송문의</a></li>
+                            <li><a href="#">교환/반품문의</a></li>
+                            <li><a href="#">배송전 취소/변경</a></li>
+                            <li><a href="#">입금/기타문의</a></li>
+                            <li><a href="#">상품문의</a></li>
+                            <li><a href="#">코디/재입고문의</a></li>
+                        </ul>
+                    </div>
+                    <div class="barr">
+                        <p class="strong">쇼핑</p>
+                        <ul>
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#">배송조회</a></li>
+                            <li><a href="#">내 쿠폰</a></li>
+                            <li><a href="#">좋아요</a></li>
+                            <li><a href="#">관심상품</a></li>
+                            <li><a href="#">최근 본 상품</a></li>
+                        </ul>
+                    </div>
+                    <div class="barr">
+                        <p class="strong">개인정보</p>
+                        <ul>
+                            <li><a href="#">마이쇼핑</a></li>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">아이디 찾기</a></li>
+                            <li><a href="#">비밀번호 찾기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
